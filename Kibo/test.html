@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キボ(Kibo) | Home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="../images/keyboard_logo_icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <!-- background video -->
+    <div id="bg-container">
+      <video autoplay muted loop id="background-video">
+        <source src="video/background_vid.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div id="background-opacity"></div>
+
+
+    <!-- navigation bar -->
+    <header>
+      
+      <h1 class="logo"><a href="index.html">キボ</a></h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="keyboard.html">Keyboard</a></li>
+          <li><a href="mouse.html">Mouse</a></li>
+          <li>
+            <a target="_blank" href="https://monkeytype.com/">Typing Test</a>
+          </li>
+          <li style=" cursor:pointer; background-color: #BBE1FA; border-radius: 2rem;">
+          <a style="color: rgb(27, 38, 44);" href="about-us.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="contact-us"><a href="contactus.html" >Contact Us</a></div>  
+      
+
+    </header>
+    
+    <!-- main -->
+    <main>
+        <div class="tabset">
+          
+
+          <!-- Tab 1 -->
+          <input type="radio" name="tabset" id="tab1" aria-controls="marzen" checked>
+          <label for="tab1">About <span class="kibo">キボ(Kibo)</span></label>
+          <!-- Tab 2 -->
+          <input type="radio" name="tabset" id="tab2" aria-controls="rauchbier">
+          <label for="tab2">Our Mission</label>
+          <!-- Tab 3 -->
+          <input type="radio" name="tabset" id="tab3" aria-controls="dunkles">
+          <label for="tab3">Why Choose Kibo</label>
+          
+          <div class="tab-panels">
+            <section id="marzen" class="tab-panel">
+              <h2 class="tab-panel-h2">About <span class="kibo">キボ(Kibo)</span></h2>
+              <p>The name <span class="kibo">キボ(pronounced kee-boh)</span>, carries a deeper meaning than just a cool-sounding word. It draws inspiration from the Japanese word for "hope". We believe technology should be a source of hope, a tool that empowers you to achieve your dreams and explore new possibilities.</p>
+              <br>
+              <p>Think of it like a spark. Just like hope ignites a fire within you to reach for your goals, Kibo aims to provide the essential tools that help you turn those hopes into realities. Whether you're a creative professional, a passionate gamer, or simply someone who wants to get the most out of your computer, Kibo strives to equip you with the right peripherals to unlock your full potential.</p>
+              <br>
+              <p>More than just a name, Kibo is a philosophy. We believe in the power of technology to connect you to your passions, fuel your creativity, and empower you to achieve your goals. So, when you choose Kibo, you're not just buying a computer accessory, you're taking a step towards a future filled with hope and possibility.</p>
+            </section>
+
+            <section id="rauchbier" class="tab-panel">
+              <h2 class="tab-panel-h2">Our Mission</h2>
+              <p><span class="tab-panel-span">Empower your potential:</span><br>We curate a diverse range of peripherals to cater to various needs and budgets, allowing you to find the perfect tools to unleash your creativity and productivity.</p>
+              <p><span class="tab-panel-span">Sustainability through reuse:</span><br>By extending the life cycle of quality equipment, we contribute to a more sustainable future for technology.</p>
+              <p><span class="tab-panel-span">Exceptional value:</span><br>We source and price our products competitively, ensuring you get the most out of your investment.</p>
+            </section>
+
+            <section id="dunkles" class="tab-panel">
+              <h2 class="tab-panel-h2">Why Choose Kibo</h2>
+              <p><span class="tab-panel-span">Extensive selection:</span><br>Find a variety of peripherals, from essential keyboards and mice to specialized gaming controllers and ergonomic accessories.</p>
+              <p><span class="tab-panel-span">Rigorous quality control:</span><br>We thoroughly inspect and test every product before adding it to our inventory, guaranteeing reliable performance.</p>
+              <p><span class="tab-panel-span">Expert assistance:</span><br>Our knowledgeable team is available to assist you in finding the perfect peripheral for your needs and budget.</p>
+            </section>
+
+          </div>
+          
+        </div>
+      </main>
+      <footer>
+        <p>Copyright © 2024 Kibo<br>
+        <a href="keyboard.html">Explore our keyboard collection!</a><br>
+        <a href="mouse.html">Explore our mouse collection!</a><br>
+        Shop quality. Empower your future. Shop sustainably with Kibo.<br>
+        Need help finding the perfect peripheral? <a href="contactus.html">Contact our experts</a></p>
+      </footer>
+  </body>
+</html>

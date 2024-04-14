@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>キボ(Kibo) | Home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="../images/logoicon.png"
+    type="image/x-icon">
+    <link rel="stylesheet" href="../webpageicons/css/all.css">
+
+</head>
+<body>
+    <!--Background video-->
+    <div id="bg-container">
+      <video autoplay muted loop id="background-video">
+        <source src="video/background_vid.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div id="background-opacity"></div>
+
+  <!-- navigation bar -->
+  <header>
+      
+    <h1 class="logo"><a href="index.html">キボ</a></h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="keyboard.html">Keyboard</a></li>
+        <li><a href="mouse.html">Mouse</a></li>
+        <li>
+          <a target="_blank" href="https://monkeytype.com/">Typing Test</a>
+        </li>
+        <li><a href="about-us.html">About Us</a></li>
+      </ul>
+    </nav>
+    <div style=" cursor:pointer; background-color: #BBE1FA; border-radius: 2rem;" class="contact-us"><a style="color: rgb(27, 38, 44);" href="contactus.html" >Contact Us</a></div>  
+    
+
+  </header>
+    
+
+    <div class="form-container">
+        <div class="form-card">
+            <div class="form">
+                <form action="action.php" method="post">
+                    <div class="input-name">
+                        <label for="name">Name</label><br>
+                        <input type="text" name="name" id="name" placeholder="Enter your name here" autocomplete="off" required><br>
+                    </div>
+                    <div class="input-number">
+                        <label for="phone-number">Phone Number</label><br>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="012-3456789" autocomplete="off" required><br> 
+                    </div>
+                    <div class="input-email">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" placeholder="dummytext@gmail.com" autocomplete="off" required><br>
+                    </div>
+                    <div class="submit">
+                        <input type="submit">
+                    </div>           
+                </form>
+            </div>
+            <div class="form-image">
+                <h1>Contact Us </h1>
+                <img src="../images/contact-us.png" alt="contact us">
+                <div class="icons">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-youtube fa-2xl"></i>
+                </div>
+            </div>
+                
+        </div>
+    </div>    
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+              At Kibo, we are passionate about empowering gamers and creators with the finest mechanical keyboards and mice. We believe that the right peripherals can elevate your experience, transforming every click and keystroke into a satisfying symphony.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="keyboard.html">Keyboard</a></li>
+              <li><a href="mouse.html">Mouse</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+         <a href="index.html">Kibo</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+</footer>
+</body>  
+</html> 
